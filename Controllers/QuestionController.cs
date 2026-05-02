@@ -13,8 +13,8 @@ namespace NEWPROJ.Controllers
         public QuestionController(IConfiguration configuration)
         {
             ConnectionString = configuration.GetConnectionString("DefaultConnection");
-        }
-
+        }     
+   
         // GET: /Question
         [HttpGet]
         public ActionResult Get()
